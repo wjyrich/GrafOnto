@@ -1,0 +1,11 @@
+[Desktop Entry]
+Categories=Accessibility;Qt;Utility;
+Exec=grafonto_gui
+Name=grafonto_gui
+Name[zh_CN]=grafonto_gui
+Icon=grafonto_gui
+StartupNotify=false
+Terminal=false
+Type=Application
+GenericName=grafonto_gui
+Version=1.0

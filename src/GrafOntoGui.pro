@@ -86,3 +86,11 @@ FORMS    += \
     gui/ontoaddcatdialog.ui \
     gui/ontoaddstmtdialog.ui \
     gui/ontoaddelemdialog.ui \
+
+target.path = $$PREFIX/bin
+desktop.files = grafonto.desktop
+desktop.path = $$PREFIX/share/applications/
+icons.path = $$PREFIX/share/icons/hicolor/apps/
+icons.files = grafonto_gui.png
+
+INSTALLS += target desktop icons
